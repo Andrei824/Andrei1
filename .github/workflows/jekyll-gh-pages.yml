@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitații Unice - Nunți, Botezuri & Meniuri</title>
+    <style>
+        /* Resetări generale */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: linear-gradient(to right, #ff6f61, #f06292);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ff6f61;
+        }
+        .hero {
+            background-image: url('https://example.com/hero-image.jpg'); /* Înlocuiește cu imaginea ta */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 2.5rem;
+            margin: 10px 0;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+        .service-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+        .service-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .service-card h3 {
+            font-size: 1.5rem;
+            margin: 15px 0;
+        }
+        .service-card p {
+            padding: 0 15px 20px;
+            color: #666;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .testimonials {
+            background: #f7f7f7;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .testimonial {
+            margin-bottom: 20px;
+        }
+        .testimonial p {
+            font-style: italic;
+            color: #555;
+        }
+        .testimonial strong {
+            display: block;
+            margin-top: 10px;
+        }
+        .contact {
+            text-align: center;
+        }
+        .contact form {
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .contact input, .contact textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact button {
+            background: #ff6f61;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .contact button:hover {
+            background: #e64a19;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Invitații Unice</h1>
+    <p>Design-uri personalizate pentru nunți, botezuri și evenimente speciale</p>
+</header>
+
+<nav>
+    <a href="#servicii">Servicii</a>
+    <a href="#galerie">Galerie</a>
+    <a href="#testimoniale">Testimoniale</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    <h2>Invitații care spun povestea ta</h2>
+    <p>Transformăm momentele speciale în amintiri unice</p>
+</div>
+
+<section id="servicii">
+    <h2 style="text-align: center;">Serviciile Noastre</h2>
+    <div class="services">
+        <div class="service-card">
+            <img src="https://example.com/invitatie-nunta.jpg" alt="Invitații de Nuntă">
+            <h3>Invitații de Nuntă</h3>
+            <p>Modele elegante și personalizate pentru evenimentul tău special.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://example.com/invitatie-botez.jpg" alt="Invitații de Botez">
+            <h3>Invitații de Botez</h3>
+            <p>Design-uri delicate pentru a celebra venirea pe lume a celor mici.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://example.com/meniu-nunta.jpg" alt="Meniu de Nuntă">
+            <h3>Meniuri de Nuntă</h3>
+            <p>Eleganță și rafinament pentru mesele invitaților tăi.</p>
+        </div>
+    </div>
+</section>
+
+<section id="galerie">
+    <h2 style="text-align: center;">Galerie</h2>
+    <div class="gallery">
+        <img src="https://example.com/design1.jpg" alt="Design 1">
+        <img src="https://example.com/design2.jpg" alt="Design 2">
+        <img src="https://example.com/design3.jpg" alt="Design 3">
+        <img src="https://example.com/design4.jpg" alt="Design 4">
+    </div>
+</section>
+
+<section id="testimoniale" class="testimonials">
+    <h2>Ce spun clienții noștri</h2>
+    <div class="testimonial">
+        <p>"Invitațiile au fost absolut perfecte! Recomand cu drag!"</p>
+        <strong>- Maria & Andrei</strong>
+    </div>
+    <div class="testimonial">
+        <p>"O experiență minunată! Meniurile au fost superbe!"</p>
+        <strong>- Ioana & Mihai</strong>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contactează-ne</h2>
+    <form action="#" method="POST">
+        <input type="text" name="nume" placeholder="Nume" required>
+       
